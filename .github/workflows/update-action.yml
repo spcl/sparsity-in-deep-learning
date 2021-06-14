@@ -1,0 +1,30 @@
+name: Update README.md and index.html
+on: repository_dispatch
+jobs:
+    resources:
+        name: Update resources
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v2.1.5
+
+            - name: Setup TeX dependencies
+              run: sudo apt-get install -y pandoc pandoc-citeproc
+
+            - name: Setup Node.js dependencies
+              run: npm install turndown
+
+            # Runs the makefile to build the markdown file
+            - name: Build README.md
+              run: make clean; make
+
+            - name: Update README.md
+              uses: test-room-7/action-update-file@v1
+              with:
+                  file-path: |
+                      README.md
+                      index.html
+                  commit-msg: Auto-update
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
