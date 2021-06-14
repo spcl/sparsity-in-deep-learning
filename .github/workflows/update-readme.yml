@@ -33,4 +33,4 @@ jobs:
 
       # Runs the makefile to build the markdown file
       - name: Build README.md
-        run: make
+        run: make clean; make
