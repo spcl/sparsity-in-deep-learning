@@ -1,5 +1,5 @@
 name: Update README.md and index.html
-on: repository_dispatch
+on: workflow_dispatch
 jobs:
     resources:
         name: Update resources
