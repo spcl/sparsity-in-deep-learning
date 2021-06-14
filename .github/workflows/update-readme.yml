@@ -31,6 +31,9 @@ jobs:
       - name: Setup TeX dependencies
         run: sudo apt-get install -y pandoc pandoc-citeproc
 
+      - name: Setup Node.js dependencies
+        run: npm install turndown
+
       # Runs the makefile to build the markdown file
       - name: Build README.md
         run: make clean; make
