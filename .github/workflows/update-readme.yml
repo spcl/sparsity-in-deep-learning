@@ -28,6 +28,10 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
 
+      - name: Setup TeX dependencies
+        run:
+          - sudo apt-get install -y pandoc
+
       # Runs the makefile to build the markdown file
       - name: Build README.md
         run: make
