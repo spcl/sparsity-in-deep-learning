@@ -898,6 +898,10 @@ Zhou, Hattie, Janice Lan, Rosanne Liu, and Jason Yosinski. 2020. “Deconstructi
 
 Zhou, X., Z. Du, Q. Guo, S. Liu, C. Liu, C. Wang, X. Zhou, L. Li, T. Chen, and Y. Chen. 2018. “Cambricon-S: Addressing Irregularity in Sparse Neural Networks Through a Cooperative Software/Hardware Approach.” In _2018 51st Annual Ieee/Acm International Symposium on Microarchitecture (Micro)_, 15–28. [https://doi.org/10.1109/MICRO.2018.00011](https://doi.org/10.1109/MICRO.2018.00011).
 
+Zhou, Xiao, Weizhong Zhang, Zonghao Chen, Shizhe Diao, and Tong Zhang. 2021. “Efficient Neural Network Training via Forward and Backward Propagation Sparsification.” _Advances in Neural Information Processing Systems_.
+
+Zhou, Xiao, Weizhong Zhang, Hang Xu, and Tong Zhang. 2021. “Effective Sparsification of Neural Networks with Global Sparsity Constraint.” In _Proceedings of the Ieee/Cvf Conference on Computer Vision and Pattern Recognition_, 3599–3608.
+
 Zhu, Jingyang, Jingbo Jiang, Xizi Chen, and Chi-Ying Tsui. 2017. “SparseNN: An Energy-Efficient Neural Network Accelerator Exploiting Input and Output Sparsity.” [http://arxiv.org/abs/1711.01263](http://arxiv.org/abs/1711.01263).
 
 Zhu, Jingyang, Zhiliang Qian, and Chi-Ying Tsui. 2016. “LRADNN: High-Throughput and Energy-Efficient Deep Neural Network Accelerator Using Low Rank Approximation.” In _2016 21st Asia and South Pacific Design Automation Conference (Asp-Dac)_, 581–86. [https://doi.org/10.1109/ASPDAC.2016.7428074](https://doi.org/10.1109/ASPDAC.2016.7428074).
